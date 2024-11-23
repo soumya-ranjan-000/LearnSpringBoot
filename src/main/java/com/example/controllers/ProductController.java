@@ -14,7 +14,6 @@ public class ProductController {
     private Products products;
     
     @RequestMapping("/products")
-    @ResponseBody
     public String getProducts(){
         return products.getProducts();
     }

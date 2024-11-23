@@ -14,7 +14,8 @@ public class Products {
 
     private List<Product> listOfProducts = new ArrayList<>(List.of(
             new Product("iphone14", 111234.56, 120),
-            new Product("realme ipad 2", 17899.00, 30)));
+            new Product("realme ipad 2", 17899.00, 30),
+            new Product("Noise Smart Watch", 1340.0, 50)));
 
     public String getProducts() {
         return gson.toJson(listOfProducts);
